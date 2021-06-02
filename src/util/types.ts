@@ -33,8 +33,8 @@ export type PresentationAttributesWithProps<P, T> = AriaAttributes &
   DOMAttributesWithProps<P, T> &
   Omit<SVGProps<T>, keyof DOMAttributesWithProps<P, T>>;
 export type PresentationAttributesAdaptChildEvent<P, T> = AriaAttributes &
-  DOMAttributesAdaptChildEvent<P, T> &
-  Omit<SVGProps<T>, keyof DOMAttributesAdaptChildEvent<P, T>>;
+  DOMAttributesAdaptChildEvent<any, any> &
+  Omit<SVGProps<any>, keyof DOMAttributesAdaptChildEvent<any, any>>;
 
 export type SymbolType = 'circle' | 'cross' | 'diamond' | 'square' | 'star' | 'triangle' | 'wye';
 export type LegendType =

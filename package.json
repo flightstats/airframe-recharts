@@ -1,5 +1,5 @@
 {
-  "name": "recharts",
+  "name": "@flightstats/airframe-recharts",
   "version": "2.0.10",
   "description": "React charts",
   "main": "lib/index",
